@@ -1,0 +1,25 @@
+{
+  "name": "selenium-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjin0617/node-selenium-example.git"
+  },
+  "keywords": [
+    "node",
+    "selenium",
+    "test",
+    "web"
+  ],
+  "author": "devjin0617@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devjin0617/node-selenium-example/issues"
+  },
+  "homepage": "https://github.com/devjin0617/node-selenium-example#readme"
+}
