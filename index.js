@@ -20,4 +20,9 @@ const driver = new webdriver.Builder()
 
 const url = 'https://jinblog.kr';
 driver.get(url);
+async function start () {
+  const data = await driver.findElements(By.css('.tit_notice'))
+  console.log(data)
+}
+start()
 // driver.quit();
