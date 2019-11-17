@@ -21,7 +21,7 @@ const driver = new webdriver.Builder()
 const url = 'https://jinblog.kr';
 driver.get(url);
 async function start () {
-  const data = await driver.findElements(By.css('.btn_util.btn_menu'));
+  const data = await driver.findElements(By.css('button.btn_util.btn_menu'));
   data.click(); // click test
 }
 start()
