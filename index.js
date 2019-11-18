@@ -21,8 +21,10 @@ const driver = new webdriver.Builder()
 const url = 'https://jinblog.kr';
 driver.get(url);
 async function start () {
-  const data = await driver.findElements(By.css('button.btn_util.btn_menu'));
-  data.click(); // click test
+  const data = await driver.findElement(By.css('button.btn_util.btn_menu'));
+  await driver.executeScript('arguments[0].click();', data)
+  const liItem = await driver.findElement(By.css('ul.list_category > li(2) ul.list_sub_category > li(1) > a.link_menu'))
+  await driver.executeScript('arguments[0].click();', liItem)
 }
 start()
 // driver.quit();
