@@ -1,0 +1,19 @@
+{
+  "setup": {
+    "url": "https://jinblog.kr"
+  },
+  "actions: [
+    {
+      "type": "find",
+      "queyry": "li"
+    },
+    {
+      "type": "event",
+      "query": "click"
+    },
+    {
+      "type": "delay",
+      "query": "1000"
+    }
+  ]
+}
