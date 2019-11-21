@@ -5,7 +5,7 @@
   "actions: [
     {
       "type": "find",
-      "queyry": "li"
+      "query": "li"
     },
     {
       "type": "event",
